@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Tutorial Application</string>
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="subject">Title</string>
+    <string name="done">Done</string>
+    <string name="reset">Reset</string>
+    <string name="submit">Submit</string>
+    <string name="choose_time">Choose Time</string>
+    <string name="not_done">Not Done</string>
+    <string name="name">Status</string>
+    <string name="phone">Priority</string>
+    <string name="low">Low</string>
+    <string name="medium">Medium</string>
+    <string name="high">High</string>
+    <string name="choose_date">Choose Date</string>
+    <string name="cancel">Cancel</string>
+    <string name="_00_00_00">00:00:00</string>
+    <string name="add_todo">Add Tutorial</string>
+    <string name="Todo">Todo</string>
+    <string name="delete_all_title">Delete All</string>
+    <string name="delete_all_body_message">Are you sure you want to delete All the Todo List Items</string>
+    <string name="delete">Delete</string>
+    <string name="delete_body_message"><![CDATA[Are you sure you want to delete Todo List Item :> \']]></string>
+    <string name="delete_todo_title">Delete Todo</string>
+    <string name="engineering_colloge">Engineering Colloge</string>
+    <string name="media_colloge">Media Colloge</string>
+    <string-array name="collges">
+        <item>Engineering</item>
+        <item>Media</item>
+        <item>Medical</item>
+        <item>Business</item>
+    </string-array>
+
+</resources>

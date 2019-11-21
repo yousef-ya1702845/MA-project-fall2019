@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:elevation="8dp"
+    android:padding="10dp"
+    app:cardMaxElevation="10dp" tools:targetApi="lollipop">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="367dp"
+        android:layout_height="169dp"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:id="@+id/nameTv"
+            android:layout_width="118dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginEnd="248dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.495" />
+
+        <TextView
+            android:id="@+id/subjectTv"
+            android:layout_width="119dp"
+            android:layout_height="41dp"
+            android:layout_marginEnd="248dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.039" />
+
+        <TextView
+            android:id="@+id/phoneTv"
+            android:layout_width="119dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/informationTv"
+            android:layout_width="152dp"
+            android:layout_height="81dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginBottom="50dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+    </android.support.constraint.ConstraintLayout>
+
+</android.support.v7.widget.CardView>
